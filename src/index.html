@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>2023 NMA Guest Lecture</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      .overview {
+        max-width: clamp(250px, 90%, 1000px);
+        margin: 0 auto;
+      }
+
+      .overview__body p {
+        margin: 0;
+      }
+
+      .overview__body :is(p + p) {
+        margin-top: 10px;
+      }
+
+      .overview__steps {
+        padding: 0;
+        margin-inline-start: 1em;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="overview">
+      <h1 class="overview__headline">Project Steps</h1>
+      <div class="overview__body">
+        <p>
+          If you are stuck you can click one of these links to go to the current
+          step that we are working on.
+        </p>
+        <p>
+          When skipping to or changing steps its important to also make sure
+          that you change your working directory. For example if you skip to
+          "Step 3", make sure that you also edit code in the "03" directory.
+        </p>
+      </div>
+
+      <ol class="overview__steps">
+        <li class="overview__steps__step">
+          <a href="01/index.html">Project starter files</a>
+        </li>
+        <li class="overview__steps__step">
+          <a href="Final/">Final project files</a>
+        </li>
+
+      </ol>
+    </main>
+  </body>
+</html>

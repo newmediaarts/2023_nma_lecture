@@ -1,0 +1,12 @@
+{
+  "name": "2023_nma_lecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite src --port 3000 --open true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
