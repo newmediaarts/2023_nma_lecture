@@ -1,7 +1,5 @@
 # 2023 NMA Guest Lecture
 
-## Topic TBD
-
 [View final demo](#)
 
 ## Prerequisites
