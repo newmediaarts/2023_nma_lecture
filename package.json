@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite src --port 3000 --open true"
+    "dev": "vite src --port 3000 --open true",
+    "build": "vite build src"
   },
   "keywords": [],
   "author": "",
