@@ -13,7 +13,8 @@
 }
 
 @mixin body {
-  --type-style: "Body"; @include type(16px, 1.25);
+  --type-style: "Body";
+  @include type(16px, 1.25);
   max-width: var(--type-max-width, 75ch);
 }
 
