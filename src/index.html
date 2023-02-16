@@ -34,6 +34,16 @@
         margin-inline-start: 1em;
         margin-top: 30px;
       }
+
+      .overview__steps__step ul {
+        margin-top: 10px;
+        margin-inline-start: 2em;
+        padding: 0;
+      }
+
+      .overview__steps__step + .overview__steps__step {
+        margin-top: 15px;
+      }
     </style>
   </head>
   <body>
@@ -53,12 +63,65 @@
 
       <ol class="overview__steps">
         <li class="overview__steps__step">
-          <a href="01/index.html">Project starter files</a>
-        </li>
-        <li class="overview__steps__step">
-          <a href="Final/">Final project files</a>
+          <a href="01/index.html">Project start</a>
+          <ul>
+            <li>
+              Starting point for the project with the base markup and styles for
+              the demo
+            </li>
+          </ul>
         </li>
 
+        <li class="overview__steps__step">
+          <a href="02/index.html">Preloader</a>
+          <ul>
+            <li>Build folder structure of js directory</li>
+            <li>
+              Integrate the smart preloader for large assets (load all videos on
+              homepage and increment the percentage as each load)
+            </li>
+          </ul>
+        </li>
+
+        <li class="overview__steps__step">
+          <a href="03/index.html">Smooth scroll</a>
+          <ul>
+            <li>Create smooth scrolling effect with LERP and RAF</li>
+          </ul>
+        </li>
+
+        <li class="overview__steps__step">
+          <a href="04/index.html"
+            >Work Gallery (Skip if running late on time)</a
+          >
+          <ul>
+            <li>Add the hover animation for the work items</li>
+            <li>
+              Dynamically animate in the correct video for the hovered work item
+            </li>
+          </ul>
+        </li>
+
+        <li class="overview__steps__step">
+          <a href="05/index.html">Page transitions</a>
+          <ul>
+            <li>
+              Dynamically load next page using "fetch" and the "fake div"
+              concept
+            </li>
+            <li>Allow for correct UX with History API</li>
+          </ul>
+        </li>
+
+        <li class="overview__steps__step">
+          <a href="Final/">Final Demo</a>
+          <ul>
+            <li>Final working version of demo</li>
+            <li>Smart preloader for large assets</li>
+            <li>Smooth scrolling w/ interactions</li>
+            <li>Page transitions</li>
+          </ul>
+        </li>
       </ol>
     </main>
   </body>
