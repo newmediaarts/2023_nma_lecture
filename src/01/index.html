@@ -8,7 +8,64 @@
   </head>
   <body>
     <main>
-      <h1>Hello World</h1>
+      <section class="hero">
+        <div class="hero__asset">
+          <video class="hero__asset__video" autoplay muted playsinline loop>
+            <source src="./assets/video/home_hero.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="hero__content">
+          <!-- Separate the headlines, but have them read as one line of text for screen readers -->
+          <div
+            class="hero__content__headlines"
+            aria-label="This is my headline, its really cool to read"
+          >
+            <div class="hero__content__headlines__primary" aria-hidden="true">
+              This is my headline
+            </div>
+            <div class="hero__content__headlines__secondary" aria-hidden="true">
+              its really cool to read
+            </div>
+          </div>
+          <div class="hero__content__body">
+            <p>
+              Williamsburg tumblr normcore selvage affogato mixtape hexagon.
+              Beard praxis waistcoat vaporware, cornhole typewriter enamel pin
+              cray health goth direct&nbsp;trade
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="work__assets">
+          <video class="work__assets__video" playsinline muted loop active>
+            <source src="./assets/video/home_item-one.mp4" type="video/mp4" />
+          </video>
+
+          <video class="work__assets__video" playsinline muted loop>
+            <source src="./assets/video/home_item-two.mp4" type="video/mp4" />
+          </video>
+
+          <video class="work__assets__video" playsinline muted loop>
+            <source src="./assets/video/home_item-three.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="work__links">
+          <a class="work__links__link" href="#" active>
+            <span class="work__links__link__count">01</span>
+            Item One
+          </a>
+          <a class="work__links__link" href="#">
+            <span class="work__links__link__count">02</span>
+            Item Two</a
+          >
+          <a class="work__links__link" href="#">
+            <span class="work__links__link__count">03</span>
+            Item Three</a
+          >
+        </div>
+      </section>
     </main>
 
     <script src="./js/main.js" type="module"></script>
