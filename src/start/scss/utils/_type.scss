@@ -5,11 +5,16 @@
   font-size: $size;
   line-height: $line-height;
   letter-spacing: $letter-spacing;
-}
+  }
 
 @mixin headline-one {
   --type-style: "Headline One";
   @include type(50px, 1.25, 0.2px);
+}
+
+@mixin headline-two {
+  --type-style: "Headline Two";
+  @include type(36px, 1.25, 0.2px);
 }
 
 @mixin body {

@@ -7,7 +7,16 @@
     <link href="./scss/main.scss" rel="stylesheet" />
   </head>
   <body>
-    <main>
+    <header class="header">
+      <a class="header__logo" href="./index.html" aria-label="Go to hompeage">
+          <span class="header__logo__illustration"></span>
+      </a>
+      <nav class="header__nav">
+        <a class="header__nav__link" href="./about.html">About</a>
+      </nav>
+    </header>
+
+    <main data-template="home">
       <section class="hero">
         <div class="hero__asset">
           <video class="hero__asset__video" autoplay muted playsinline loop>
@@ -36,6 +45,38 @@
           </div>
         </div>
       </section>
+
+      <div class="spacer" aria-hidden="true"></div>
+
+      <section class="single-column">
+        <h2 class="single-column__headline">Cool title section</h2>
+        <div class="single-column__body">
+          <p>
+            Praxis banjo photo booth food truck prism PBR&B plaid. Schlitz DIY
+            skateboard fanny pack fashion axe bruh hammock vegan. Seitan
+            shoreditch truffaut biodiesel try-hard. Selfies direct trade chia
+            DSA tofu Brooklyn ugh af. Tattooed waistcoat mumblecore, kombucha
+            jianbing cray authentic wolf cred listicle marfa typewriter
+            post-ironic. Succulents whatever edison bulb, bodega boys migas
+            yuccie intelligentsia keffiyeh ascot ugh synth chillwave vape green
+            juice palo santo.
+          </p>
+          <p>
+            Umami raw denim sriracha kitsch DIY, butcher gastropub locavore
+            street art. Prism tote bag wayfarers, semiotics tofu umami
+            shoreditch four dollar toast salvia chambray. Chartreuse butcher
+            8-bit normcore cray woke. Before they sold out lumbersexual
+            fingerstache pork belly master cleanse chartreuse seitan vape meh
+            woke distillery lomo. Four dollar toast flexitarian you probably
+            haven't heard of them shoreditch chartreuse bushwick. Flexitarian
+            lumbersexual aesthetic, cloud bread schlitz put a bird on it pok pok
+            keffiyeh art party. JOMO offal migas viral polaroid narwhal
+            tattooed.
+          </p>
+        </div>
+      </section>
+
+      <div class="spacer" aria-hidden="true"></div>
 
       <section class="work">
         <div class="work__assets">
@@ -66,6 +107,8 @@
           >
         </div>
       </section>
+
+      <div class="spacer" aria-hidden="true"></div>
     </main>
 
     <script src="./js/main.js" type="module"></script>
