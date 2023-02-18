@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     <script type="module" crossorigin src="../assets/modulepreload-polyfill-ec808ebb.js"></script>
-    <script type="module" crossorigin src="../assets/main-2d471129.js"></script>
+    <script type="module" crossorigin src="../assets/main-18ca93b1.js"></script>
     <link rel="stylesheet" href="../assets/main-5acfc79e.css">
   </head>
 
@@ -24,11 +24,14 @@
       <div data-template="home" smooth-scroll>
         <section class="hero">
           <div class="hero__asset">
-            <video class="hero__asset__video"
-
-                src="../assets/home_hero-9916672e.mp4"
-                autoplay muted playsinline loop>
-            </video>
+            <video
+              class="hero__asset__video"
+              data-src="./assets/video/home_hero.mp4"
+              autoplay
+              muted
+              playsinline
+              loop
+            ></video>
           </div>
           <div class="hero__content">
             <!-- Separate the headlines, but have them read as one line of text for screen readers -->
@@ -92,7 +95,7 @@
           <div class="work__assets">
             <video
               class="work__assets__video"
-              src="../assets/home_item-one-07ce2fcc.mp4"
+              data-src="./assets/video/home_item-one.mp4"
               playsinline
               muted
               loop
@@ -101,7 +104,7 @@
 
             <video
               class="work__assets__video"
-              src="../assets/home_item-two-261d9357.mp4"
+              data-src="./assets/video/home_item-two.mp4"
               playsinline
               muted
               loop
@@ -109,7 +112,7 @@
 
             <video
               class="work__assets__video"
-              src="../assets/home_item-three-81679787.mp4"
+              data-src="./assets/video/home_item-three.mp4"
               playsinline
               muted
               loop
@@ -134,7 +137,7 @@
         <div class="spacer" aria-hidden="true"></div>
       </div>
     </main>
-    <div class="preloader preloader--loaded">
+    <div class="preloader">
       <div class="preloader__headline">Loading...</div>
       <div class="preloader__progress">0%</div>
     </div>
