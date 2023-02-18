@@ -21,8 +21,8 @@ export function initPreloader() {
     switch (asset.tagName.toLowerCase()) {
       case "video":
         // Get the placeholder "data-src" attribute and change it to the "src"
-            // You want to have this effect so that you can run a callback
-            // when the asset loads
+        // You want to have this effect so that you can run a callback
+        // when the asset loads
         const srcValue = asset.getAttribute("data-src");
         asset.setAttribute("src", srcValue);
 

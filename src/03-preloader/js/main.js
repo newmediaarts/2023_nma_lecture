@@ -13,7 +13,7 @@ class App {
     // RequestAnimationFrame timestamp
     this._update();
 
-    this._createPage()
+    this._createPage();
   }
 
   /** @method update
