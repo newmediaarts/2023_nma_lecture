@@ -1,6 +1,6 @@
 # 2023 NMA Guest Lecture
 
-[View final demo](#)
+[View final demo](https://newmediaarts.github.io/2023_nma_lecture/)
 
 ## Prerequisites
 
