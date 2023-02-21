@@ -12,6 +12,11 @@ export default defineConfig({
     outDir: join(__dirname, "dist"),
     rollupOptions: {
       input: glob.sync(resolve(__dirname, "src", "**/*.html")),
+      output: {
+        entryFileNames: "assets/[name].js",
+        chunkFileNames: "assets/[name].js",
+        assetFileNames: "assets/[name].[ext]",
+      },
     },
   },
 });
