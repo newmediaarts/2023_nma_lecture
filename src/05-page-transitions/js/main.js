@@ -1,6 +1,6 @@
 import { lerp } from "./utils/lerp";
 import { initPreloader } from "./components/preloader";
-import {workGallery} from './components/workGallery'
+import { workGallery } from "./components/workGallery";
 
 class App {
   constructor() {
@@ -32,10 +32,9 @@ class App {
   _createPage() {
     initPreloader();
 
-      if(this.workGalleryElements.length > 0){
-
-          this.workGalleryElements.forEach((gallery) => workGallery(gallery))
-      }
+    if (this.workGalleryElements.length > 0) {
+      this.workGalleryElements.forEach((gallery) => workGallery(gallery));
+    }
   }
 
   _initSmoothScroll() {
