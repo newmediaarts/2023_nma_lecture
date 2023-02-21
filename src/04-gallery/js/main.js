@@ -1,5 +1,6 @@
 import { lerp } from "./utils/lerp";
 import { initPreloader } from "./components/preloader";
+import {workGallery} from './components/workGallery'
 
 class App {
   constructor() {
@@ -8,6 +9,8 @@ class App {
     this.currentScrollPos = 0;
     this.targetScrollPos = 0;
     this.scrollEase = 0.1;
+
+    this.workGalleryElements = document.querySelectorAll(".work");
 
     this._initSmoothScroll();
     // RequestAnimationFrame timestamp
@@ -28,6 +31,11 @@ class App {
 
   _createPage() {
     initPreloader();
+
+      if(this.workGalleryElements.length > 0){
+
+          this.workGalleryElements.forEach((gallery) => workGallery(gallery))
+      }
   }
 
   _initSmoothScroll() {
