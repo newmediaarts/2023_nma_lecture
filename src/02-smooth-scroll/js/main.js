@@ -40,6 +40,11 @@ class App {
       this.scrollEase
     );
 
+
+    // Smooth out transition in case there are a lot of decimals
+    this.currentScrollPos = parseFloat(this.currentScrollPos.toFixed(2));
+
+
     // Transform the scroll container to the lerp value
     const transformProperty = `translate3d(0, ${
       this.currentScrollPos * -1
