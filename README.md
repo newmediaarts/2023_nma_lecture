@@ -6,6 +6,14 @@
 
 - Make sure that you have NodeJS installed
 
+## Useful Links
+
+- [OOP With JS](https://www.youtube.com/watch?v=5AWRivBk0Gw)
+- [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- ["this" keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+- [Request Animation Frame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
+- [Linear Interpolation)[https://www.youtube.com/watch?v=rcz6qvx-igs)
+
 ## Development
 
 1. When first starting the project make sure that all dependencies are installed.
