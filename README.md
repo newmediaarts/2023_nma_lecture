@@ -12,7 +12,7 @@
 - [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - ["this" keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 - [Request Animation Frame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
-- [Linear Interpolation)[https://www.youtube.com/watch?v=rcz6qvx-igs)
+- [Linear Interpolation](https://www.youtube.com/watch?v=rcz6qvx-igs)
 
 ## Development
 
